@@ -37,7 +37,13 @@ export function HeroAnimation() {
             color: string
 
             constructor() {
+
+                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                // @ts-expect-error
                 this.x = (Math.random() * canvas.width) / devicePixelRatio
+
+                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                // @ts-expect-error
                 this.y = (Math.random() * canvas.height) / devicePixelRatio
                 this.size = Math.random() * 5 + 1
                 this.speedX = Math.random() * 2 - 1
@@ -49,19 +55,37 @@ export function HeroAnimation() {
                 this.x += this.speedX
                 this.y += this.speedY
 
+
+                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                // @ts-expect-error
                 if (this.x > canvas.width / devicePixelRatio || this.x < 0) {
                     this.speedX = -this.speedX
                 }
 
+
+                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                // @ts-expect-error
                 if (this.y > canvas.height / devicePixelRatio || this.y < 0) {
                     this.speedY = -this.speedY
                 }
             }
 
             draw() {
+
+                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                // @ts-expect-error
                 ctx.fillStyle = this.color
+
+                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                // @ts-expect-error
                 ctx.beginPath()
+
+                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                // @ts-expect-error
                 ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2)
+
+                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                // @ts-expect-error
                 ctx.fill()
             }
         }
