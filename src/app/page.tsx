@@ -224,12 +224,12 @@ export default function Portfolio() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
               <ProjectCard
-                  title="Adding Project soon..."
-                  description="Adding Description Soon..."
-                  tags={["Next.js", "TypeScript", "Prisma", "Stripe"]}
-                  image="/placeholder.svg?height=400&width=600"
-                  demoUrl="https://example.com"
-                  repoUrl="https://github.com"
+                  title="Portfolio Website"
+                  description="Portfolio Website built using Next.js and Tailwind CSS"
+                  tags={["Next.js", "TypeScript", "Tailwind", "Vercel", "Framer Motion"]}
+                  image="/Project1.png?height=400&width=600"
+                  demoUrl="https://ankitsaurabh.vercel.app"
+                  repoUrl="https://github.com/ankits57/portfolioV2"
               />
               <ProjectCard
                   title="Adding Project soon..."
