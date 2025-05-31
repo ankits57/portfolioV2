@@ -40,7 +40,7 @@ export default function Portfolio() {
                 </div>
               </div>
               <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-                <span className="block">Hi, I&apos;`m</span>
+                <span className="block">Hi, I&apos;m</span>
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-teal-500">
                 Ankit Saurabh
               </span>
@@ -149,14 +149,14 @@ export default function Portfolio() {
               <div className="space-y-6">
                 <GlassmorphicCard>
                   <p className="text-lg text-zinc-300">
-                    I&apos;`m a software engineer with a strong foundation in computer science and a passion for building clean, high-performing systems. Whether it&apos;`s designing scalable backend architectures or crafting intuitive user interfaces, I aim for elegant solutions that solve real problems. With experience in full-stack development and a focus on Java and Spring Boot, I’ve contributed to platforms that demand performance, security, and reliability.
+                    I&apos;m a software engineer with a strong foundation in computer science and a passion for building clean, high-performing systems. Whether it&apos;s designing scalable backend architectures or crafting intuitive user interfaces, I aim for elegant solutions that solve real problems. With experience in full-stack development and a focus on Java and Spring Boot, I’ve contributed to platforms that demand performance, security, and reliability.
                   </p>
                   <p className="text-lg text-zinc-300 mt-4">
-                    My journey in tech started with a strong foundation in software development. I&apos;`ve worked with various
+                    My journey in tech started with a strong foundation in software development. I&apos;ve worked with various
                     companies to create intuitive, performant, and accessible digital experiences.
                   </p>
                   <p className="text-lg text-zinc-300 mt-4">
-                    When I&apos;`m not coding, you can find me exploring new technologies, contributing to open-source projects,
+                    When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source projects,
                     and staying up-to-date with the latest industry trends.
                   </p>
 
