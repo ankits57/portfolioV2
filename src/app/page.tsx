@@ -247,30 +247,30 @@ export default function Portfolio() {
                   demoUrl="https://example.com"
                   repoUrl="https://github.com"
               />
-              <ProjectCard
-                  title="Adding Project soon..."
-                  description="Adding Description Soon..."
-                  tags={["React Native", "TypeScript", "D3.js", "Firebase"]}
-                  image="/placeholder.svg?height=400&width=600"
-                  demoUrl="https://example.com"
-                  repoUrl="https://github.com"
-              />
-              <ProjectCard
-                  title="Adding Project soon..."
-                  description="Adding Description Soon..."
-                  tags={["React", "Weather API", "Chart.js", "Styled Components"]}
-                  image="/placeholder.svg?height=400&width=600"
-                  demoUrl="https://example.com"
-                  repoUrl="https://github.com"
-              />
-              <ProjectCard
-                  title="Adding Project soon..."
-                  description="Adding Description Soon..."
-                  tags={["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"]}
-                  image="/placeholder.svg?height=400&width=600"
-                  demoUrl="https://example.com"
-                  repoUrl="https://github.com"
-              />
+              {/*<ProjectCard*/}
+              {/*    title="Adding Project soon..."*/}
+              {/*    description="Adding Description Soon..."*/}
+              {/*    tags={["React Native", "TypeScript", "D3.js", "Firebase"]}*/}
+              {/*    image="/placeholder.svg?height=400&width=600"*/}
+              {/*    demoUrl="https://example.com"*/}
+              {/*    repoUrl="https://github.com"*/}
+              {/*/>*/}
+              {/*<ProjectCard*/}
+              {/*    title="Adding Project soon..."*/}
+              {/*    description="Adding Description Soon..."*/}
+              {/*    tags={["React", "Weather API", "Chart.js", "Styled Components"]}*/}
+              {/*    image="/placeholder.svg?height=400&width=600"*/}
+              {/*    demoUrl="https://example.com"*/}
+              {/*    repoUrl="https://github.com"*/}
+              {/*/>*/}
+              {/*<ProjectCard*/}
+              {/*    title="Adding Project soon..."*/}
+              {/*    description="Adding Description Soon..."*/}
+              {/*    tags={["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"]}*/}
+              {/*    image="/placeholder.svg?height=400&width=600"*/}
+              {/*    demoUrl="https://example.com"*/}
+              {/*    repoUrl="https://github.com"*/}
+              {/*/>*/}
             </div>
           </div>
         </section>
