@@ -232,12 +232,12 @@ export default function Portfolio() {
                   repoUrl="https://github.com/ankits57/portfolioV2"
               />
               <ProjectCard
-                  title="Adding Project soon..."
-                  description="Adding Description Soon..."
-                  tags={["React", "Firebase", "Tailwind CSS", "Redux"]}
-                  image="/placeholder.svg?height=400&width=600"
-                  demoUrl="https://example.com"
-                  repoUrl="https://github.com"
+                  title="Car Rental"
+                  description="Car Rental Webiste built using MERN, hosted on Vercel."
+                  tags={["React", "MongoDB","ImageKit", "Tailwind CSS", "Express", "Node.js"]}
+                  image="/Project2.png?height=400&width=600"
+                  demoUrl="https://car-rental-seven-coral.vercel.app"
+                  repoUrl="https://github.com/ankits57/carRental"
               />
               <ProjectCard
                   title="Adding Project soon..."
